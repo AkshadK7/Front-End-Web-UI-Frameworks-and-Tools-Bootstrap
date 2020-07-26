@@ -49,6 +49,9 @@
                         <img src="img/logo.png" class="img-fluid">
                     </div>
                 </div>
+                <div class="col-12 col-sm" style="padding-top: 4%;">
+                    <a role="button" class="btn btn-primary" style="background-color: rgb(230, 175, 26); color: black;" href="#Reservations">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reserve Table&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                </div>   
             </div>
         </div>
     </header>
@@ -73,16 +76,30 @@
             </div>
         </div>
 
-
         <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-first col-md-3">
+                <h3>This Month's Promotions</h3>
+            </div>
+            <div class="col col-sm order-sm-last col-md">
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Also Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/buffet.png" alt="Buffet">
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
                 <h2>Weekend Grand Buffet</h2>
-                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks.  All for just $19.99 per person </p>
             </div>
-        </div>
+        </div> -->
 
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3"> 
@@ -103,6 +120,79 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-12 offset-1 col-md-9">
+                <div class="card" id="Reservations">
+                    <h3 class="card-header text-white" style="background-color: rgb(230, 175, 26);">Reserve A Table</h3>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group row">
+                                <label for="number of guests" class="col-md-2 col-form-label">Number of Guests</label>
+                                <div class="col-md-10">
+                                   <label class="radio-inline"><input type="radio" name="optradio" checked>&nbsp;1&nbsp;&nbsp;</label>
+                                   <label class="radio-inline"><input type="radio" name="optradio">&nbsp;2&nbsp;&nbsp;</label>
+                                   <label class="radio-inline"><input type="radio" name="optradio">&nbsp;3&nbsp;&nbsp;</label>
+                                   <label class="radio-inline"><input type="radio" name="optradio">&nbsp;4&nbsp;&nbsp;</label>
+                                   <label class="radio-inline"><input type="radio" name="optradio">&nbsp;5&nbsp;&nbsp;</label>
+                                   <label class="radio-inline"><input type="radio" name="optradio">&nbsp;6&nbsp;&nbsp;</label>
+                                   <!-- <input type="text" class="form-control" id="number of guests" name="number of guests" placeholder="number of guests"> -->
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="datetime" class="col-12 col-md-2 col-form-label">Date and Time</label>
+                                <div class="col-12 col-md-4">
+                                    <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <input type="time" class="form-control" id="time" name="time" placeholder="Time">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-md-2 col-md-10">
+                                    <button type="submit" class="btn btn-primary">Reserve</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-12">
+               <h3 style="background-color: yellow;">Reserve A Table</h3>
+            </div>
+             <div class="col-12 col-md-9">
+                 <form>
+                     <div class="form-group row">
+                         <label for="number of guests" class="col-md-2 col-form-label">Number of Guests</label>
+                         <div class="col-md-10">
+                            <label class="radio-inline"><input type="radio" name="optradio" checked>&nbsp;1&nbsp;&nbsp;</label>
+                            <label class="radio-inline"><input type="radio" name="optradio">&nbsp;2&nbsp;&nbsp;</label>
+                            <label class="radio-inline"><input type="radio" name="optradio">&nbsp;3&nbsp;&nbsp;</label>
+                            <label class="radio-inline"><input type="radio" name="optradio">&nbsp;4&nbsp;&nbsp;</label>
+                            <label class="radio-inline"><input type="radio" name="optradio">&nbsp;5&nbsp;&nbsp;</label>
+                            <label class="radio-inline"><input type="radio" name="optradio">&nbsp;6&nbsp;&nbsp;</label>
+                         </div>
+                     </div>
+                     <div class="form-group row">
+                         <label for="datetime" class="col-12 col-md-2 col-form-label">Date and Time</label>
+                         <div class="col-5 col-md-4">
+                             <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                         </div>
+                         <div class="col-5 col-md-4">
+                             <input type="time" class="form-control" id="time" name="time" placeholder="Time">
+                         </div>
+                     </div>
+                     <div class="form-group row">
+                         <div class="offset-md-2 col-md-10">
+                             <button type="submit" class="btn btn-primary">Reserve</button>
+                         </div>
+                     </div>
+                 </form>
+             </div>
+              <div class="col-12 col-md">
+             </div> -->
         </div>
     </div>
 
